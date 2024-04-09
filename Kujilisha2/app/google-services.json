@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "942740814722",
+    "firebase_url": "https://my-projet-mobile-default-rtdb.firebaseio.com",
+    "project_id": "my-projet-mobile",
+    "storage_bucket": "my-projet-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942740814722:android:fbfe3d7fb19a75356c6d9b",
+        "android_client_info": {
+          "package_name": "com.example.kujilisha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942740814722-9l30prl6tag0uv4tethdigbkbcii161v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTLjwfh9UZkS3gqrBJ9BitRrrw0KhAHnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942740814722-9l30prl6tag0uv4tethdigbkbcii161v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942740814722:android:36ae1c3f7fc7da256c6d9b",
+        "android_client_info": {
+          "package_name": "org.unh.examenpm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942740814722-9l30prl6tag0uv4tethdigbkbcii161v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTLjwfh9UZkS3gqrBJ9BitRrrw0KhAHnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942740814722-9l30prl6tag0uv4tethdigbkbcii161v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
