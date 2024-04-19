@@ -259,7 +259,7 @@ fun prod(viewModel: AuthLoginViewModel, email: String): String {
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
                     Text(
-                        text = "une erreur c'est produite lors du chargement",
+                        text = "une erreur c'est produite lors du chargement presentation",
                         fontSize = MaterialTheme.typography.bodyLarge.fontSize,
                         color = Color.DarkGray
                     )

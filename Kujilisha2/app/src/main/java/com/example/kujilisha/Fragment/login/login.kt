@@ -170,7 +170,7 @@ fun SetDateU(viewModel: AuthLoginViewModel,email: String, password: String ) {
                     verticalArrangement = Arrangement.Center,
                     horizontalAlignment = Alignment.CenterHorizontally
                 ){
-                    Text(text = "une erreur c'est produite lors du chargement des donnees", fontSize = MaterialTheme.typography.bodyLarge.fontSize
+                    Text(text = "une erreur c'est produite lors du chargement des donnees login", fontSize = MaterialTheme.typography.bodyLarge.fontSize
                         , color = Color.DarkGray)
                 }
             }

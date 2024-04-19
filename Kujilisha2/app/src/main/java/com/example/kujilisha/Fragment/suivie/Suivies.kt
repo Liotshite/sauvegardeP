@@ -66,6 +66,7 @@ import com.example.kujilisha.model.Commande
 import com.example.kujilisha.model.Produit
 import com.example.kujilisha.model.User
 import com.google.firebase.database.FirebaseDatabase
+import java.net.URLEncoder
 
 
 @Composable
@@ -293,10 +294,12 @@ fun UsersRow(user: User,email:String,nom:String,
         val context = LocalContext.current
 
         val database = FirebaseDatabase.getInstance()
+        val x = "gs://my-projet-mobile.appspot.com/images/"+user.Photo
+        val encodedUrl = URLEncoder.encode(x,"UTF-8")
         Row(verticalAlignment = Alignment.CenterVertically) {
             AsyncImage(
                 model = ImageRequest.Builder(LocalContext.current)
-                    .data("gs://my-projet-mobile.appspot.com/images/"+user.Photo)
+                    .data(encodedUrl)
                     .crossfade(true)
                     .build(),
                 placeholder = painterResource(R.drawable.galeri),

@@ -441,7 +441,7 @@ fun SetDateU(viewModel: AccueilVM, navController: NavController,email: String) {
                     verticalArrangement = Arrangement.Center,
                     horizontalAlignment = Alignment.CenterHorizontally
                 ){
-                    Text(text = "une erreur c'est produite lors du chargement", fontSize = MaterialTheme.typography.bodyLarge.fontSize
+                    Text(text = "une erreur c'est produite lors du chargement compte", fontSize = MaterialTheme.typography.bodyLarge.fontSize
                         , color = Color.DarkGray)
                 }
             }

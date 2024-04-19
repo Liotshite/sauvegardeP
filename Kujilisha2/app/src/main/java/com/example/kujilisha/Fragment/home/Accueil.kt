@@ -60,6 +60,7 @@ import com.example.kujilisha.SharePreferenceManager
 import com.example.kujilisha.data.DataStatePr
 import com.example.kujilisha.model.Produit
 import com.google.firebase.storage.FirebaseStorage
+import java.net.URLEncoder
 
 
 @Composable
@@ -135,7 +136,7 @@ fun SetDate(viewModel: AccueilVM,navController: NavController) {
                     verticalArrangement = Arrangement.Center,
                     horizontalAlignment = Alignment.CenterHorizontally
                 ){
-                    Text(text = "une erreur c'est produite lors du chargement", fontSize = MaterialTheme.typography.bodyLarge.fontSize
+                    Text(text = "une erreur c'est produite lors du chargement accueil", fontSize = MaterialTheme.typography.bodyLarge.fontSize
                         , color = Color.DarkGray)
                 }
             }
@@ -186,9 +187,10 @@ fun ProduitRow(produit: Produit,
 
 
             Row (verticalAlignment = Alignment.CenterVertically){
-
+                val x = "gs://my-projet-mobile.appspot.com/images/"+produit.PhotoPr
+                val encodedUrl = URLEncoder.encode(x,"UTF-8")
                 Image(
-                    painter = rememberAsyncImagePainter(model = "gs://my-projet-mobile.appspot.com/images/"+produit.PhotoPr),
+                    painter = rememberAsyncImagePainter(model = encodedUrl),
                     contentDescription = "image",
                     contentScale = ContentScale.Crop,
                     modifier = Modifier
