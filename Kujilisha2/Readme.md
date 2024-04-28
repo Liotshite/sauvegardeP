@@ -11,4 +11,5 @@ L'utilisateur peut retrouver les commandes qu'il a passées dans la section "En 
 de chaque commande et aura également la possibilité de cliquer sur une commande spécifique pour obtenir 
 des informations supplémentaires sur le produit lié à cette commande.
 
-#
+# Les comptes 
+L'utilisateur a la possibilité de choisir entre deux types de compte en fonction de s'il est un client ou un producteur. Dans les deux types de compte, il peut consulter et modifier ses informations, ainsi que passer des commandes de produits. Pour un compte producteur, il y a la possibilité d'ajouter des produits à son catalogue et de voir les produits déjà présents dans son catalogue.
